@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world8" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#520"
+            android:textSize="24sp"
+            android:text="@string/app_name2_zj"
+            />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:paddingLeft="5dp"
+            android:layout_toRightOf="@id/tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:textSize="24sp"
+            android:text="妳善良"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_toRightOf="@id/tv1"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:text="可爱"
+            />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_toRightOf="@id/tv2"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666"
+            android:textSize="24sp"
+            android:text="漂亮"
+            />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_below="@id/tv2"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F08080"
+            android:textSize="24sp"
+            android:visibility="gone"
+            android:text="声音好听"
+            />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_below="@id/tv2"
+            android:layout_toRightOf="@id/tv4"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#201314"
+            android:textSize="24sp"
+            android:text="聪明"
+            />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_below="@id/tv2"
+            android:layout_toRightOf="@id/tv5"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#54FF9F"
+            android:textSize="24sp"
+            android:text="又有气质"
+            />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_below="@id/tv5"
+            android:paddingTop="20dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666"
+            android:text="时间有点紧迫,下次把这做成动画吧"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:text="妳存在,我深深的脑海里,我的梦里,我的心里,我的程序里"
+        android:textColor="#00f" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:text="妳的呼吸,已经让我感到如此的着迷"
+        android:textColor="#00f" />
+
+</LinearLayout>

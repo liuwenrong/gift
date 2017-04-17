@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/text2"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="1.在驾校学半坡起步，下坡的时候车急速往下滑行，
+教练大吼一声：用脚刹！我一下子慌了，打开车门，
+将一只脚伸到外面在地上摩擦，终于将车的速度降了下来。"
+            android:textColor="#808080"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2.温泉的时候，看见一目测4岁左右的小萝莉。她把一次性的白毛巾搭在肩上，特别兴奋地：“你看我像不像小三？你看我像不像小三？”。前面的麻麻转过来，一脸黑线：“那叫小二！！！”"
+            android:textColor="#808080"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="3.鲁迅迟到了，老师责怪他懒惰，不守时。但是他并没有反驳，而是默默走回课桌，用刀在桌角刻了一个“早”字。老师看到后很是欣慰：“哎呀，迅讯，其实迟到也没什么大不了了啦～老师最喜欢你这种随性的风格呢，快把砍刀收起来听课啦，么么哒～！”"
+            android:textColor="#808080"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="4.自己一个人照顾好自己，晚上盖好被子，早晨醒来不要猛的坐起来会头疼，不要吃凉的辣的对胃不好，过马路的时候左右看，好好吃饭，不要就穿那么点衣服，感冒了一定要吃药，不要熬太晚，睡觉时记得把手机的亮度调低些，不然有辐射，记得我在关心你。[表情][表情]"
+            android:textColor="#808080"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="5.我家小胡同里有一个跛脚卖章鱼丸子的小哥，车子开不进胡同。 城管小哥来前老远就喊一句“我来了！”自己跑进来，动作跟慢动作似的，每次都给跛脚小哥逃窜留出充足的时间。搬家前又看到一次，于是我问城管小哥，你干嘛跑那么慢。“他腿脚不好，”城管小哥说，“追太快我怕他着急，摔跤。”"
+            android:textColor="#808080"
+            android:textSize="15sp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="6.记得高一时候考地理，全班考砸，地理老师大怒：“填空题白送的40分，居然有人打10分，20分？打十分到二十分的全都给我站起来，把卷子抄十遍！”这时同桌长叹：“好险，我21分。”正在庆幸时，后边一哥们也幽幽叹息：“我也好险呐，我9分”，我和同桌集体石化。。。"
+            android:textColor="#808080"
+            android:textSize="15sp" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="7.有一天，小明去学校。同学们说他的脸像屁股。小明很伤心的跑了出去。，来到了一口井边上。他把头伸到井里想看看自己究竟是不是真的像屁股。正当他把头伸进去时，井底的挖井工人突然朝他大喊：“你TM敢往下面拉屎你就死定了！！！"
+            android:textColor="#808080"
+            android:textSize="15sp" />
+        
+    </LinearLayout>
+
+</ScrollView>
