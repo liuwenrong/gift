@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
+            android:onClick="onClick4Main"
             android:text="60"
             android:textColor="#f00"
             android:textSize="20sp" />
@@ -42,6 +43,7 @@
         android:id="@+id/hint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onClick4Main"
         android:text="..."
         android:textColor="#666" />
 
@@ -50,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClick4Main"
-        android:src="@drawable/dog3" />
+        android:visibility="visible"
+        android:src="@drawable/ic_yujian" />
 
 </LinearLayout>

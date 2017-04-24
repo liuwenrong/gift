@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PicMusic2zj"
+        <activity android:name=".PicMusic2tt"
             android:label="@string/app_name2_tt"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
@@ -35,7 +35,7 @@
             android:label="@string/app_name3_lwr"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_lwr_christmas">
+            android:icon="@drawable/ic_lwr_mingren">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,7 +47,7 @@
             android:label="@string/app_name4_1"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_here">
+            android:icon="@drawable/ic_lwr_christmas">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -66,11 +66,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BirthdaySong5"
-            android:label="@string/app_name6_merry_christmas"
+        <activity android:name=".MainActivity6"
+            android:label="@string/app_name6_happy"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_christmas2_2">
+            android:icon="@drawable/ic_lufei">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

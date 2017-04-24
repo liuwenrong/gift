@@ -7,12 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import anim.CircularAnim;
 
 public class MainActivity extends AppCompatActivity {
     private TextView tv_time;
     private TextView hint;
+    private ImageView ivClick;
     private MediaPlayer mp;//mediaPlayer对象
     private final int time = 0;
 
@@ -35,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                     }else{
 
                         handler.sendEmptyMessageDelayed(time, 1000);
+                        if(int_time == 59) {
+                            CircularAnim.show(ivClick).triggerView(hint).go();
+                        }
 
                     }
 
@@ -57,11 +64,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv_time = (TextView) findViewById(R.id.tv_time);
         hint = (TextView) findViewById(R.id.hint);
+        ivClick = (ImageView) findViewById(R.id.iv_click);
 
         handler.sendEmptyMessageDelayed(time, 1000);
+//        CircularAnim.hide(tv_time).go();
 
-        mp=MediaPlayer.create(MainActivity.this, R.raw.beike);//创建mediaplayer对象
-        play();
+//        mp=MediaPlayer.create(MainActivity.this, R.raw.beike);//创建mediaplayer对象
+//        play();
 
     }
     private void play(){
@@ -85,9 +94,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void goBirthday(){
-
-        Intent intent = new Intent(this, BirthdayMV4.class);
-        startActivity(intent);
+        CircularAnim.fullActivity(MainActivity.this, hint)
+                .colorOrImageRes(R.color.colorPrimary)
+                .go(new CircularAnim.OnAnimationEndListener() {
+                    @Override
+                    public void onAnimationEnd() {
+                        startActivity(new Intent(MainActivity.this, BirthdayMV4.class));
+                    }
+                });
+//        Intent intent = new Intent(this, BirthdayMV4.class);
+//        startActivity(intent);
 
     }
 
@@ -96,6 +112,12 @@ public class MainActivity extends AppCompatActivity {
         switch (v.getId()) {
             case R.id.iv_click:
                 goBirthday();
+                break;
+            case R.id.hint:
+                CircularAnim.hide(ivClick).triggerView(v).go();
+                break;
+            case R.id.tv_time:
+                CircularAnim.show(ivClick).triggerView(v).go();
                 break;
 
             default:

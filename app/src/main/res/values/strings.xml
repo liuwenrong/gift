@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Hi</string>
     <string name="hello_world">请静等</string>
-    <string name="happy_birthday">钟洁,祝妳生日快乐!</string>
+    <string name="happy_day">小婷子,祝妳天天开心!</string>
+    <string name="happy_day2">小婷子,祝妳天天开心,永远幸福!</string>
     <string name="song">送妳一首歌</string>
-    <string name="app_name2_zj">钟洁</string>
+    <string name="app_name2_zj">小婷子</string>
     <string name="app_name2_tt">婷婷</string>
     <string name="name_cc">晨晨</string>
     <string name="name_lwr">刘文荣</string>
@@ -16,7 +17,7 @@
     <string name="app_name4_1">在这里</string>
 
     <string name="action_settings">Settings</string>
-    <string name="hello_world3">Hello <b>祝妳生日快乐!</b> \n 从创作到现在只花了几个小时而已～所以设计的比较丑、但我很用心的去想～希望妳能喜欢*^_^*以后还可以更新的哟</string>
+    <string name="hello_world3">Hello <b>你要天天开心快乐!</b> \n 望妳能喜欢*^_^*以后还可以更新的哟</string>
 
     <string name="joke_title">为妳献上一些搞笑段子,希望妳能喜欢.</string>
     <string name="app_name4">我在这里</string>
@@ -26,13 +27,14 @@
 一直以来谢谢妳每天可以陪我聊天～一起玩游戏、有妳的日子过的很开心^ω^大学太宅了～第一次有人给我写信、第一次有人给我买吃的、第一次有人唱歌给我听等等
 在我心里、妳就是我的女神*^_^*
 每次收到妳的快递、室友投来羡慕的眼光、心里美滋滋的、越来越喜欢妳了。。。（作为理科生、情商比较低、文采不好～写的不好还请见谅）
-------致美丽的妳 晨晨</string>
+------致美丽的妳 </string>
     <string name="hello_world4_zj">  （作为理科生、情商比较低、文采不好～写的不好还请见谅）
-------致美丽的妳 钟洁</string>
+------致美丽的妳 </string>
     <string name="app_name5">需要我时</string>
     <string name="app_name6_1">生日快乐</string>
     <string name="app_name6_silent_night">平安夜快乐</string>
     <string name="app_name6_merry_christmas">圣诞节快乐</string>
+    <string name="app_name6_happy">天天开心</string>
     <string name="hello_world5">我可以陪妳聊天,和妳一起玩游戏,和妳分享身边的故事...因为我一直都在,我是暖暖的小荣学长,我为自己带盐</string>
     <string name="app_name6">随时召唤</string>
     <string name="hello_world6">谁能在评论中写出“觽”这个字的，凡是能写出这个字的给我立刻发88.88元红包，说到做到，愿赌服输！截图为证</string>

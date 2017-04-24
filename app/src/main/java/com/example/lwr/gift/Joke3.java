@@ -2,16 +2,9 @@ package com.example.lwr.gift;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.Menu;
-import android.view.View;
-import android.webkit.WebChromeClient;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 public class Joke3 extends Activity {
 
@@ -21,7 +14,7 @@ public class Joke3 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.joke3);
-		mWebView = (WebView)findViewById(R.id.webView);
+		/*mWebView = (WebView)findViewById(R.id.webView);
 		pb = (ProgressBar) findViewById(R.id.pb);
 		mWebView.loadUrl("http://tieba.baidu.com/p/4877821287");
 		mWebView.setWebViewClient(new WebViewClient(){
@@ -55,7 +48,7 @@ public class Joke3 extends Activity {
 				}
 
 			}
-		});
+		});*/
 	}
 
 	@Override
@@ -65,7 +58,7 @@ public class Joke3 extends Activity {
 		return true;
 	}
 
-	@Override
+/*	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		// TODO Auto-generated method stub
 		if(keyCode== KeyEvent.KEYCODE_BACK)
@@ -81,6 +74,6 @@ public class Joke3 extends Activity {
 			}
 		}
 		return super.onKeyDown(keyCode, event);
-	}
+	}*/
 
 }

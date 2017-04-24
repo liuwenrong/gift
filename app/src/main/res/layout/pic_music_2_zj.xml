@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PicMusic2zj" >
+    tools:context=".PicMusic2tt" >
 
     <LinearLayout
         android:id="@+id/layout_top"
@@ -24,7 +24,7 @@
             android:visibility="gone"
             android:textSize="18sp"
             android:paddingBottom="10dp"
-            android:text="生活处处有惊喜,生日快乐,祝妳天天开心,永远幸福..."
+            android:text="生活处处有惊喜,祝妳天天开心,永远幸福..."
             android:textColor="@color/skyBlue" />
 
        
@@ -47,7 +47,7 @@
              android:id="@+id/image_view"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:src="@drawable/dog7"
+             android:src="@drawable/ic_tt1_161224"
              android:scaleType="fitCenter"
              android:visibility="visible"
              />

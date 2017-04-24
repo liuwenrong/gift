@@ -3,14 +3,8 @@ package com.example.lwr.gift;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
-import android.webkit.WebChromeClient;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 public class BirthdayMV4 extends Activity {
 
@@ -20,7 +14,7 @@ public class BirthdayMV4 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.birthday_mv4);
-		mWebView = (WebView)findViewById(R.id.webView);
+		/*mWebView = (WebView)findViewById(R.id.webView);
 		pb = (ProgressBar) findViewById(R.id.pb);
 		mWebView.loadUrl("http://m.neihanshequ.com/share/group/52396792357/?iid=6141659324&app=joke_essay");
 		mWebView.setWebViewClient(new WebViewClient(){
@@ -54,7 +48,7 @@ public class BirthdayMV4 extends Activity {
 				}
 
 			}
-		});
+		});*/
 	}
 
 	@Override

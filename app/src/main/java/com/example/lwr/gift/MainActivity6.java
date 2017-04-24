@@ -1,20 +1,17 @@
 package com.example.lwr.gift;
 
-import android.os.Bundle;
-import android.os.Handler;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity6 extends Activity {
 
 	private TextView tv_1, tv_2;
 	private EditText et;
 
-	private Handler handler = new Handler(){
+/*	private Handler handler = new Handler(){
 
 		public void handleMessage(android.os.Message msg) {
 			switch (msg.what) {
@@ -27,16 +24,16 @@ public class MainActivity6 extends Activity {
 			}
 		};
 
-	};
+	}*/;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_6);
 
-		tv_1 = (TextView) findViewById(R.id.tv_1);
-		tv_2 = (TextView) findViewById(R.id.tv_2);
-		et = (EditText) findViewById(R.id.et);
+//		tv_1 = (TextView) findViewById(R.id.tv_1);
+//		tv_2 = (TextView) findViewById(R.id.tv_2);
+//		et = (EditText) findViewById(R.id.et);
 
 	}
 
@@ -46,7 +43,7 @@ public class MainActivity6 extends Activity {
 		return true;
 	}
 
-	public void onClick4cc6(View v){
+/*	public void onClick4cc6(View v){
 
 		switch (v.getId()) {
 		case R.id.tv_send:
@@ -70,6 +67,6 @@ public class MainActivity6 extends Activity {
 			break;
 		}
 
-	}
+	}*/
 
 }

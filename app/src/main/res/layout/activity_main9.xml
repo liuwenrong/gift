@@ -12,5 +12,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world9" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:onClick="animRun"
+        android:src="@drawable/ic_tt_zhinv" />
 
 </RelativeLayout>

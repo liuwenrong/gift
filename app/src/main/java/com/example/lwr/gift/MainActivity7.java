@@ -21,7 +21,7 @@ public class MainActivity7 extends Activity {
 				if(int_time == 0){
 
 					Toast.makeText(getApplicationContext(), "算了,我还是不重启了......", 1).show();
-					Toast.makeText(getApplicationContext(), getResources().getText(R.string.happy_birthday), 1).show();
+					Toast.makeText(getApplicationContext(), getResources().getText(R.string.happy_day2), 1).show();
 					handler.sendEmptyMessageDelayed(1, 5000);
 
 

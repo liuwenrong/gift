@@ -1,8 +1,10 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".BirthdayMV4" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".BirthdayMV4">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -11,24 +13,30 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:gravity="center_horizontal"
-            android:textSize="24sp"
+            android:text="@string/happy_day"
             android:textColor="#f00"
-            android:text="@string/happy_birthday" />
+            android:textSize="24sp"/>
+        <!--        <ProgressBar
+                    android:id="@+id/pb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
 
-        <ProgressBar
-            android:id="@+id/pb"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"-->
+        />
 
-        <WebView
-            android:id="@+id/webView"
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            />
+            android:src="@drawable/ic_ni"
+            android:visibility="visible"/>
 
 
     </LinearLayout>
-</ScrollView>
+</LinearLayout>
