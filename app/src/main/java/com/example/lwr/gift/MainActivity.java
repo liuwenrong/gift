@@ -1,144 +1,123 @@
 package com.example.lwr.gift;
 
-import android.content.Intent;
-import android.media.MediaPlayer;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Context;
 import android.os.Bundle;
-import android.view.Menu;
+import android.support.v7.app.AppCompatActivity;
+import android.util.DisplayMetrics;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.view.WindowManager;
 import android.widget.Toast;
 
-import anim.CircularAnim;
+import com.dalong.library.listener.OnItemClickListener;
+import com.dalong.library.listener.OnItemSelectedListener;
+import com.dalong.library.listener.OnLoopViewTouchListener;
+import com.dalong.library.view.LoopRotarySwitchView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView tv_time;
-    private TextView hint;
-    private ImageView ivClick;
-    private MediaPlayer mp;//mediaPlayer对象
-    private final int time = 0;
 
-    private Handler handler = new Handler(){
+    private LoopRotarySwitchView mLoopRotarySwitchView,mLoopRotarySwitchView2,mLoopRotarySwitchView3;
 
-        public void handleMessage(android.os.Message msg) {
-            switch (msg.what) {
-                case time:
+    private List<View> views;
 
-                    String str_time = tv_time.getText().toString().trim();
-                    int int_time = Integer.parseInt(str_time);
-                    int_time--;
-                    tv_time.setText(""+int_time);
-                    if(int_time == 0){
-
-                        Toast.makeText(getApplicationContext(), "哈哈哈哈哈哈...妳真的等了60s", 0).show();
-                        handler.sendEmptyMessageDelayed(1, 5000);
-
-
-                    }else{
-
-                        handler.sendEmptyMessageDelayed(time, 1000);
-                        if(int_time == 59) {
-                            CircularAnim.show(ivClick).triggerView(hint).go();
-                        }
-
-                    }
-
-                    break;
-
-                case 1:
-
-                    Toast.makeText(getApplicationContext(), "其实点击图片就可以跳转了...", 0).show();
-                    goBirthday();
-
-                    break;
-            }
-        };
-
-    };
+    private  int width;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv_time = (TextView) findViewById(R.id.tv_time);
-        hint = (TextView) findViewById(R.id.hint);
-        ivClick = (ImageView) findViewById(R.id.iv_click);
 
-        handler.sendEmptyMessageDelayed(time, 1000);
-//        CircularAnim.hide(tv_time).go();
-
-//        mp=MediaPlayer.create(MainActivity.this, R.raw.beike);//创建mediaplayer对象
-//        play();
-
+        initView();
+        initData();
+        initLoopRotarySwitchView();
+        initLinstener();
     }
-    private void play(){
-        try{
-//            mp.reset();
-//            mp=MediaPlayer.create(MainActivity.this, R.raw.sound);//重新设置要播放的音频
-            mp.start();//开始播放
-            hint.setText("正在播放音频...");
-//            play.setEnabled(false);
-//            pause.setEnabled(true);
-//            stop.setEnabled(true);
-        }catch(Exception e){
-            e.printStackTrace();//输出异常信息
+
+    private void initLinstener() {
+        /**
+         * 选中回调
+         */
+        mLoopRotarySwitchView.setOnItemSelectedListener(new OnItemSelectedListener() {
+            @Override
+            public void selected(int position, View view) {
+//                Toast.makeText(MainActivity.this, "setOnItemSelectedListener－－－i="+position, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        /**
+         * 触摸回调
+         */
+        mLoopRotarySwitchView.setOnLoopViewTouchListener(new OnLoopViewTouchListener() {
+            @Override
+            public void onTouch(MotionEvent event) {
+            }
+        });
+        /**
+         * 点击事件
+         */
+        mLoopRotarySwitchView.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(int item, View view) {
+                Toast.makeText(MainActivity.this, "setOnItemClickListener－－－i="+item, Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    /**
+     * 设置LoopRotarySwitchView
+     */
+    private void initLoopRotarySwitchView() {
+        mLoopRotarySwitchView
+                .setR(width/3)//设置R的大小
+                .setAutoRotation(true)//是否自动切换
+                .setAutoRotationTime(2000);//自动切换的时间  单位毫秒
+        mLoopRotarySwitchView2
+                .setR(width/3)//设置R的大小
+                .setAutoRotation(true)//是否自动切换
+                .setAutoRotationTime(2000);//自动切换的时间  单位毫秒
+        mLoopRotarySwitchView3
+                .setR(width/5)//设置R的大小
+                .setAutoRotation(true)//是否自动切换
+                .setAutoRotationTime(2000);//自动切换的时间  单位毫秒
+    }
+
+    /**
+     *  初始化布局
+     */
+    private void initView() {
+        mLoopRotarySwitchView=(LoopRotarySwitchView)findViewById(R.id.mLoopRotarySwitchView);
+        mLoopRotarySwitchView2=(LoopRotarySwitchView)findViewById(R.id.mLoopRotarySwitchView2);
+        mLoopRotarySwitchView3=(LoopRotarySwitchView)findViewById(R.id.mLoopRotarySwitchView3);
+        DisplayMetrics dm = new DisplayMetrics();
+        WindowManager windowManager = (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);
+        windowManager.getDefaultDisplay().getMetrics(dm);
+        width=dm.widthPixels;
+    }
+
+    /**
+     * 初始化数据
+     */
+    private void initData() {
+        views=new ArrayList<>();
+        View view0= LayoutInflater.from(this).inflate(R.layout.loopview_item_view0,null);
+        View view1= LayoutInflater.from(this).inflate(R.layout.loopview_item_view1,null);
+        View view2= LayoutInflater.from(this).inflate(R.layout.loopview_item_view2,null);
+        View view3= LayoutInflater.from(this).inflate(R.layout.loopview_item_view4,null);
+        View view4= LayoutInflater.from(this).inflate(R.layout.loopview_item_view5,null);
+        views.add(view0);
+        views.add(view1);
+        views.add(view2);
+        views.add(view3);
+        views.add(view4);
+        for (int i=0;i<views.size();i++){
+            mLoopRotarySwitchView.addView(views.get(i));
         }
-    }
-    private void goCc1_2(){
-
-        Intent intent = new Intent(this, PicMusic2cc.class);
-        startActivity(intent);
 
     }
 
-    private void goBirthday(){
-        CircularAnim.fullActivity(MainActivity.this, hint)
-                .colorOrImageRes(R.color.colorPrimary)
-                .go(new CircularAnim.OnAnimationEndListener() {
-                    @Override
-                    public void onAnimationEnd() {
-                        startActivity(new Intent(MainActivity.this, BirthdayMV4.class));
-                    }
-                });
-//        Intent intent = new Intent(this, BirthdayMV4.class);
-//        startActivity(intent);
-
-    }
-
-    public void onClick4Main(View v){
-
-        switch (v.getId()) {
-            case R.id.iv_click:
-                goBirthday();
-                break;
-            case R.id.hint:
-                CircularAnim.hide(ivClick).triggerView(v).go();
-                break;
-            case R.id.tv_time:
-                CircularAnim.show(ivClick).triggerView(v).go();
-                break;
-
-            default:
-                break;
-        }
-
-    }
-
-    @Override
-    protected void onDestroy() {
-        if(mp.isPlaying()){
-            mp.stop();
-        }
-        mp.release();//释放资源
-        super.onDestroy();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
 
 }
