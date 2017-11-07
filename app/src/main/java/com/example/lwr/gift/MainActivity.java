@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         initView();
         initData();
         initLoopRotarySwitchView();
-        initLinstener();
+        initListener();
     }
 
-    private void initLinstener() {
+    private void initListener() {
         /**
          * 选中回调
          */
