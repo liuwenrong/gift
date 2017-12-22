@@ -18,6 +18,8 @@ import com.dalong.library.view.LoopRotarySwitchView;
 import java.util.ArrayList;
 import java.util.List;
 
+import roger.love.ThreeThings;
+
 public class MainActivity extends AppCompatActivity {
 
     private LoopRotarySwitchView mLoopRotarySwitchView,mLoopRotarySwitchView2,mLoopRotarySwitchView3;
@@ -35,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
         initData();
         initLoopRotarySwitchView();
         initListener();
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Toast.makeText(this, ThreeThings.MyLove(), Toast.LENGTH_LONG).show();
+//        ThreeThings.MyLove();
     }
 
     private void initListener() {

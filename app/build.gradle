@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 25
+    buildToolsVersion '26.0.3'
     defaultConfig {
         applicationId "com.example.lwr.gift"
         minSdkVersion 21
-        targetSdkVersion 23
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -17,6 +17,49 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+// Specifies a flavor dimension. girl 节日
+    flavorDimensions "girl", "festival"
+
+    productFlavors {
+//        main {
+//            dimension "main"
+//        }
+
+        nm { //柠檬
+
+            dimension "girl"
+        }
+
+        xtz { //小婷子
+            dimension "girl"
+        }
+
+        christmas { //圣诞节
+            dimension "festival"
+        }
+
+        birthday { //生日
+            dimension "festival"
+        }
+
+    }
+
+    sourceSets {
+//        main {
+//
+//        }
+        nm {
+            manifest.srcFile 'src/nm/AndroidManifest.xml' //manifest会被合并到app的main的manifest文件中
+            java.srcDirs 'src/nm/java' //java目录下的文件会被添加到main里的java目录中，所以不能和main里的类重名（含包名）
+            res.srcDirs 'src/nm/res' //res目录下的资源文件会替换main里的资源文件
+        }
+        christmas {
+            res.srcDirs 'src/christmas/res'
+        }
+    }
+
+
 }
 
 dependencies {
@@ -24,9 +67,9 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:appcompat-v7:25.4.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:design:23.0.1'
+    compile 'com.android.support:design:25.4.0'
     compile project(':loopview')
 }

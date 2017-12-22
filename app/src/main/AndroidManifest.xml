@@ -19,30 +19,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PicMusic2tt"
-            android:label="@string/app_name2_tt"
-            android:process=":process.sub"
-            android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_tt1_161224">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".Song2"
-            android:label="@string/app_name3_lwr"
-            android:process=":process.sub"
-            android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_lwr_mingren">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
         <activity android:name=".Joke3"
             android:label="@string/app_name4_1"
             android:process=":process.sub"
@@ -55,34 +31,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".BirthdayMV4"
-            android:label="@string/app_name5_1"
-            android:process=":process.sub"
-            android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_launcher5">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity6"
-            android:label="@string/app_name6_happy"
-            android:process=":process.sub"
-            android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_lufei">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <activity android:name=".MainActivity7"
             android:label="@string/app_name7"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_lwr">
+            android:icon="@drawable/ic_app_7">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -90,41 +44,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity8"
-            android:label="@string/app_name8"
-            android:process=":process.sub"
-            android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_tt8_161225">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".MainActivity9"
-            android:label="@string/app_name9"
-            android:process=":process.sub"
-            android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_tt">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <!--<activity android:name=".MainActivity9"-->
-            <!--android:label="@string/app_name9"-->
-            <!--android:process=":process.sub"-->
-            <!--android:launchMode ="singleInstance"-->
-            <!--android:icon="@drawable/ic_launcher9">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
 
     </application>
 
