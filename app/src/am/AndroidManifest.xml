@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.lwr.gift">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:process=":process.main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="roger.am.HeartTreeAct"
+            android:icon="@drawable/ic_linlin"
+            android:label="@string/app_name2_am"
+            android:launchMode="singleInstance"
+            android:process=":process.sub"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Song2"
+            android:icon="@drawable/ic_lwr_mingren"
+            android:label="@string/app_name3"
+            android:launchMode="singleInstance"
+            android:process=":process.sub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--        <activity android:name=".Joke3"
+                    android:label="@string/app_name4_1"
+                    android:process=":process.sub"
+                    android:launchMode ="singleInstance"
+                    android:icon="@drawable/ic_lwr_christmas">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>-->
+
+        <activity
+            android:name=".BirthdayMV4"
+            android:icon="@drawable/ic_launcher5"
+            android:label="@string/app_name5_1"
+            android:launchMode="singleInstance"
+            android:process=":process.sub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--        <activity android:name=".MainActivity6"
+                    android:label="@string/app_name6_happy"
+                    android:process=":process.sub"
+                    android:launchMode ="singleInstance"
+                    android:icon="@drawable/ic_lufei_daxiao">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>-->
+
+        <!--        <activity android:name=".MainActivity7"
+                    android:label="@string/app_name7"
+                    android:process=":process.sub"
+                    android:launchMode ="singleInstance"
+                    android:icon="@drawable/ic_lufei_ku">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>-->
+
+        <activity
+            android:name=".MainActivity8"
+            android:icon="@drawable/ic_tt1_161224"
+            android:label="@string/app_name8"
+            android:launchMode="singleInstance"
+            android:process=":process.sub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="roger.am.MainActivity9"
+            android:icon="@drawable/ic_tt"
+            android:label="@string/app_name9"
+            android:launchMode="singleInstance"
+            android:process=":process.sub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--<activity android:name=".MainActivity9"-->
+        <!--android:label="@string/app_name9"-->
+        <!--android:process=":process.sub"-->
+        <!--android:launchMode ="singleInstance"-->
+        <!--android:icon="@drawable/ic_launcher9">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN" />-->
+
+        <!--<category android:name="android.intent.category.LAUNCHER" />-->
+        <!--</intent-filter>-->
+        <!--</activity>-->
+
+    </application>
+
+</manifest>

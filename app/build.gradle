@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '26.0.3'
+    compileSdkVersion 27
+    buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
         applicationId "com.example.lwr.gift"
         minSdkVersion 21
@@ -11,12 +11,12 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
+//    buildTypes {
+//        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+//    }
 
 // Specifies a flavor dimension. girl 节日
     flavorDimensions "girl", "festival"
@@ -35,11 +35,19 @@ android {
             dimension "girl"
         }
 
+        am { // 阿咩
+            dimension "girl"
+        }
+
         christmas { //圣诞节
             dimension "festival"
         }
 
         birthday { //生日
+            dimension "festival"
+        }
+
+        valentine { //情人节 七夕
             dimension "festival"
         }
 
@@ -67,9 +75,26 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile "com.android.support:appcompat-v7:$supprotVersion"
     compile 'com.github.bumptech.glide:glide:3.7.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:design:25.4.0'
+    compile "com.android.support:design:$supprotVersion"
     compile project(':loopview')
+    implementation project(':lib')
+    def htextview_version = "0.1.6"
+    def supprotVersion = '27.1.0'
+    implementation "com.facebook.react:react-native:0.20.1"
+    implementation 'com.github.lygttpod:SuperTextView:2.1.7'
+// as 3.0 use implementation
+    compile "com.hanks:htextview-base:$htextview_version"        // base library
+
+    compile "com.hanks:htextview-fade:$htextview_version"        // optional
+    compile "com.hanks:htextview-line:$htextview_version"        // optional
+    compile "com.hanks:htextview-rainbow:$htextview_version"     // optional
+    compile "com.hanks:htextview-typer:$htextview_version"       // optional
+
+    compile "com.hanks:htextview-scale:$htextview_version"       // optional
+    compile "com.hanks:htextview-evaporate:$htextview_version"   // optional
+    compile "com.hanks:htextview-fall:$htextview_version"        // optional
+    compile 'com.android.support.constraint:constraint-layout:1.1.2'
 }

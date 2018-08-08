@@ -78,7 +78,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity7"
+<!--        <activity android:name=".MainActivity7"
             android:label="@string/app_name7"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
@@ -88,7 +88,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
 
         <activity android:name=".MainActivity8"
             android:label="@string/app_name8"

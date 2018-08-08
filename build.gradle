@@ -18,9 +18,33 @@ allprojects {
     repositories {
         jcenter()
         google()
+        maven {
+            // All of React Native (JS, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+        maven { url "https://jitpack.io" }
+    }
+        gradle.taskGraph.whenReady {
+        tasks.each { task ->
+            if (task.name.equals('mockableAndroidJar')) {
+                task.enabled = false
+            }
+        }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    compileSdkVersion = 25
+    buildToolsVersion = "26.0.3"
+//    supprotVersion = "25.4.0"
+    supprotVersion = "27.1.0"
+    minSdkVersion = 21
+    targetSdkVersion = 25
+    versionCode = 34
+    versionName = "v2.6.1"
+}
+
