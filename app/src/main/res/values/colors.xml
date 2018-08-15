@@ -12,4 +12,9 @@
     <color name="point4">#80FF4081</color>
     <color name="point5">#80303F9F</color>
     <color name="white">#fffffffb</color>
+
+
+    <color name="red_btn_bg_color">#FF4081</color>
+    <color name="red_btn_bg_pressed_color">#80303F9F</color>
+
 </resources>

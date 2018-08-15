@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\GitClone\\GitHub\\gift\\dialog_lib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\liuwenrong.CCDOMAIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.0.aar\\1f4b1275d7781b6c417582102761c5a0\\res\\values-xlarge-land\\values.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "63",
+                        "endOffsets": "115"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

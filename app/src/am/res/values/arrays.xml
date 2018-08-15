@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url">
+        <!--小姐姐-->
+<!--        <item>http://upload-images.jianshu.io/upload_images/1367153-ec52114ac51941f6.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>-->
+        <!--171114妳生日-->
+        <item>https://upload-images.jianshu.io/upload_images/1367153-5a06ff90d8f8cfb3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
+        <!--171225圣诞节交换礼物-->
+        <item>https://upload-images.jianshu.io/upload_images/1367153-9d8e9c1b7600a77b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
+        <!--ins flower-->
+        <item>https://upload-images.jianshu.io/upload_images/1367153-15daaafeb62d1342.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <!--代码的图片-->
+        <item>https://upload-images.jianshu.io/upload_images/1367153-570026a5d9d794ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
+        <!--ins week-->
+        <item>https://upload-images.jianshu.io/upload_images/1367153-a88cd49606537360.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+
+        <!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic21363tj30ci08ct96.jpg</item>-->
+        <!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic1xjab4j30ci08cjrv.jpg</item>-->
+<!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic259ohaj30ci08c74r.jpg</item>-->
+        <!--<item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2b16zuj30ci08cwf4.jpg</item>-->
+<!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item>-->
+    </array>
+
+    <array name="url1">
+        <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
+    </array>
+    <array name="url2">
+        <item>http://img.zcool.cn/community/01d28457d621800000018c1bb7877e.jpg</item>
+        <item>http://img.zcool.cn/community/01ae5656e1427f6ac72531cb72bac5.jpg</item>
+    </array>
+    <array name="url4">
+        <item>http://img.zcool.cn/community/01b72057a7e0790000018c1bf4fce0.png</item>
+        <item>http://img.zcool.cn/community/01fca557a7f5f90000012e7e9feea8.jpg</item>
+        <item>http://img.zcool.cn/community/01996b57a7f6020000018c1bedef97.jpg</item>
+        <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
+    </array>
+    <!-- http://588ku.com/image/daitengmandelitizi.html -->
+    <array name="test_num_url">
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f19cc0079.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1ac12d1d.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1bad97d1.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1c83c228.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1d53e3dd.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1e37fea9.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1ef4d709.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f20b3ea10.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f21927f8d.jpg</item>
+    </array>
+    <array name="title">
+        <item>171114我们为妳庆祝生日</item>
+        <item>171225圣诞节交换礼物</item>
+        <item>180513Ins展</item>
+        <item>Sun,Moon,You</item>
+        <item>Ins展week</item>
+    </array>
+    <array name="demo_list">
+        <item>banner动画预览</item>
+        <item>banner内置样式预览</item>
+        <item>banner指示器位置设置预览</item>
+        <item>banner一些自定义样式方法预览</item>
+        <item>banner加载本地图片</item>
+        <item>banner自定义布局文件（这里通过修改ViewPager举一反三吧）</item>
+        <item>！！banner更多用法请看文档，这里就不一一列举了！</item>
+    </array>
+    <array name="anim">
+        <item>Default动画</item>
+        <item>Accordion动画</item>
+        <item>BackgroundToForeground动画</item>
+        <item>ForegroundToBackground动画</item>
+<!--        <item>CubeIn动画</item>-->
+        <item>CubeOut动画</item>
+        <item>DepthPage动画</item>
+        <item>FlipHorizontal动画</item>
+        <item>FlipVertical动画</item>
+        <item>RotateDown动画</item>
+        <item>RotateUp动画</item>
+        <item>ScaleInOut动画</item>
+        <item>Stack动画</item>
+        <item>Tablet动画</item>
+        <item>ZoomIn动画</item>
+        <item>ZoomOut动画</item>
+        <item>ZoomOutSlide动画</item>
+    </array>
+    <string-array name="style">
+        <item>NOT_INDICATOR</item>
+        <item>CIRCLE_INDICATOR</item>
+        <item>NUM_INDICATOR</item>
+        <item>NUM_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE_INSIDE</item>
+    </string-array>
+    <string-array name="indicator">
+        <item>LEFT</item>
+        <item>CENTER</item>
+        <item>RIGHT</item>
+    </string-array>
+</resources>

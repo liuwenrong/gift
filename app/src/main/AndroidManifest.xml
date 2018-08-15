@@ -11,28 +11,31 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity"
+<!--        <activity android:name=".MainActivity"
             android:process=":process.main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
 
-        <activity android:name=".Joke3"
-            android:label="@string/app_name4_1"
-            android:process=":process.sub"
-            android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_lwr_christmas">
+
+        <!--3我是荣 自我介绍,自我炫耀-->
+<!--        <activity
+            android:name=".Song2"
+            android:icon="@mipmap/ic_lwr_180808"
+            android:label="@string/app_name3"
+            android:launchMode="singleInstance"
+            android:process=":process.sub">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
+        </activity>-->
 
-
-        <activity android:name=".MainActivity7"
+        <!--7.恶搞 玩笑-->
+<!--        <activity android:name=".MainActivity7"
             android:label="@string/app_name7"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
@@ -42,7 +45,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
 
 
     </application>

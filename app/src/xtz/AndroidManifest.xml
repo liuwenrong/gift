@@ -59,7 +59,7 @@
             android:label="@string/app_name5_1"
             android:process=":process.sub"
             android:launchMode ="singleInstance"
-            android:icon="@drawable/ic_launcher5">
+            android:icon="@mipmap/ic_zhuni5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
         applicationId "com.example.lwr.gift"
@@ -71,30 +71,83 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile "com.android.support:appcompat-v7:$supprotVersion"
+
     compile 'com.github.bumptech.glide:glide:3.7.0'
     testCompile 'junit:junit:4.12'
-    compile "com.android.support:design:$supprotVersion"
+
+//    def supportVersion = rootProject.ext.supportVersion
+    compile "com.android.support:design:$supportVersion"
     compile project(':loopview')
     implementation project(':lib')
     def htextview_version = "0.1.6"
-    def supprotVersion = '27.1.0'
-    implementation "com.facebook.react:react-native:0.20.1"
+    implementation 'com.facebook.react:react-native:0.20.1'
     implementation 'com.github.lygttpod:SuperTextView:2.1.7'
-// as 3.0 use implementation
-    compile "com.hanks:htextview-base:$htextview_version"        // base library
 
-    compile "com.hanks:htextview-fade:$htextview_version"        // optional
-    compile "com.hanks:htextview-line:$htextview_version"        // optional
-    compile "com.hanks:htextview-rainbow:$htextview_version"     // optional
-    compile "com.hanks:htextview-typer:$htextview_version"       // optional
+    // as 3.0 use implementation
+    compile "com.hanks:htextview-base:$htextview_version"
 
-    compile "com.hanks:htextview-scale:$htextview_version"       // optional
-    compile "com.hanks:htextview-evaporate:$htextview_version"   // optional
-    compile "com.hanks:htextview-fall:$htextview_version"        // optional
-    compile 'com.android.support.constraint:constraint-layout:1.1.2'
+    // base library
+    compile "com.hanks:htextview-fade:$htextview_version"
+
+    // optional
+    compile "com.hanks:htextview-line:$htextview_version"
+
+    // optional
+    compile "com.hanks:htextview-rainbow:$htextview_version"
+
+    // optional
+    compile "com.hanks:htextview-typer:$htextview_version"
+
+    // optional
+    compile "com.hanks:htextview-scale:$htextview_version"
+
+    // optional
+    compile "com.hanks:htextview-evaporate:$htextview_version"
+
+    // optional
+    compile "com.hanks:htextview-fall:$htextview_version"
+
+    // optional
+
+        compile 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.youth.banner:banner:1.4.10'
+
+    //最新版本
+
+    //    implementation 'cn.pedant.sweetalert:library:1.3' //dialog 动画报错,只能拷源码
+    implementation project(':dialog_lib')
+//    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'io.reactivex:rxandroid:1.2.1'
+
+    //rxJava 雪花FlowerView
+//    compile 'com.zzhoujay.richtext:richtext:2.5.4'
+    compile 'com.zzhoujay.richtext:richtext:3.0.7'
+
+    // 富文本 markDown 18年最新2.5.4
+/*    implementation ('com.mikepenz:materialdrawer:5.9.5@aar') {
+        transitive = true
+    }*/
+//    implementation 'com.mikepenz:materialdrawer:6.1.0-rc01' //duplicate 重复资源
+
+    //侧滑菜单 节日 唱歌或视频
+
+    //required support lib modules
+    implementation "com.android.support:appcompat-v7:$supportVersion"
+//    implementation "com.android.recyclerview:$supportVersion"
+//    implementation "com.android.annotation:$supportVersion"
+//    implementation "com.google.android.material:material:$supportVersion"
+
+    //    implementation "androidx.appcompat:appcompat:${versions.androidX}"
+
+    //    implementation "androidx.recyclerview:recyclerview:${versions.androidX}"
+
+    //    implementation "androidx.annotation:annotation:${versions.androidX}"
+
+    //    implementation "com.google.android.material:material:${versions.androidX}"
+//    implementation 'com.android.support:support-annotations:28.0.0-rc01'
+//    implementation 'com.android.support:recyclerview-v7:28.0.0-rc01'
 }

@@ -12,7 +12,7 @@ import com.hanks.htextview.base.AnimationListener;
 import com.hanks.htextview.base.HTextView;
 
 /**
- * des: So Cool
+ * des: So Cool 画心形图
  *
  * @author liuwenrong
  * @version 1.0, 8/6/2018

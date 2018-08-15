@@ -1,1 +1,1 @@
-include ':app', ':loopview', ':lib'
+include ':app', ':loopview', ':lib', ':dialog_lib'

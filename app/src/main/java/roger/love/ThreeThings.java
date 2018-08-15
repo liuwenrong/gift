@@ -7,9 +7,8 @@ package roger.love;
  * 浮世三千,吾爱有三.
  * 日月与卿,日为朝,
  * 月为暮,卿为朝朝暮暮.
- *
  * @author Roger
- * @version 1.0, 2017/11/18
+ * @version 1.0, 2017/11/14
  */
 public class ThreeThings extends Me {
 

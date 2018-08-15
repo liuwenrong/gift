@@ -9,6 +9,8 @@ buildscript {
 //        classpath 'com.android.tools.build:gradle:2.3.3'
         classpath 'com.android.tools.build:gradle:3.0.0'
         classpath 'com.novoda:bintray-release:0.5.0'//修改此处版本号为 0.5.0---修改之前是0.3.4
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -18,6 +20,7 @@ allprojects {
     repositories {
         jcenter()
         google()
+        mavenCentral()
         maven {
             // All of React Native (JS, Android binaries) is installed from npm
             url "$rootDir/../node_modules/react-native/android"
@@ -38,13 +41,19 @@ task clean(type: Delete) {
 }
 
 ext {
-    compileSdkVersion = 25
-    buildToolsVersion = "26.0.3"
-//    supprotVersion = "25.4.0"
-    supprotVersion = "27.1.0"
+//    supportVersion = "25.4.0"
+    compileSdkVersion = 27
+    buildToolsVersion = "27.0.3"
+    supportVersion = "27.1.0"
+//    compileSdkVersion = 28
+//    buildToolsVersion = "28.0.2"
+//    supportVersion = "28.0.0-rc01"
     minSdkVersion = 21
     targetSdkVersion = 25
     versionCode = 34
     versionName = "v2.6.1"
+    versions = [
+            androidX:'1.0.0-rc01'
+    ]
 }
 
