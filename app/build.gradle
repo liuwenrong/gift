@@ -25,7 +25,9 @@ android {
 //        main {
 //            dimension "main"
 //        }
-
+        wmt {
+            dimension "girl"
+        }
         nm { //柠檬
 
             dimension "girl"
