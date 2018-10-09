@@ -11,12 +11,13 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-//    buildTypes {
-//        release {
-//            minifyEnabled false
+    buildTypes {
+        release {
+//            minifyEnabled true
+//            shrinkResources true
 //            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-//        }
-//    }
+        }
+    }
 
 // Specifies a flavor dimension. girl 节日
     flavorDimensions "girl", "festival"
@@ -26,18 +27,6 @@ android {
 //            dimension "main"
 //        }
         wmt {
-            dimension "girl"
-        }
-        nm { //柠檬
-
-            dimension "girl"
-        }
-
-        xtz { //小婷子
-            dimension "girl"
-        }
-
-        am { // 阿咩
             dimension "girl"
         }
 
@@ -59,10 +48,10 @@ android {
 //        main {
 //
 //        }
-        nm {
-            manifest.srcFile 'src/nm/AndroidManifest.xml' //manifest会被合并到app的main的manifest文件中
-            java.srcDirs 'src/nm/java' //java目录下的文件会被添加到main里的java目录中，所以不能和main里的类重名（含包名）
-            res.srcDirs 'src/nm/res' //res目录下的资源文件会替换main里的资源文件
+        wmt {
+            manifest.srcFile 'src/wmt/AndroidManifest.xml' //manifest会被合并到app的main的manifest文件中
+            java.srcDirs 'src/wmt/java' //java目录下的文件会被添加到main里的java目录中，所以不能和main里的类重名（含包名）
+            res.srcDirs 'src/wmt/res' //res目录下的资源文件会替换main里的资源文件
         }
         christmas {
             res.srcDirs 'src/christmas/res'

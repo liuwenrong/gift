@@ -47,7 +47,6 @@
              android:id="@+id/image_view"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:src="@drawable/ic_tt1_161224"
              android:scaleType="fitCenter"
              android:visibility="visible"
              />

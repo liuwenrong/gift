@@ -1,5 +1,6 @@
 package com.roger.gift;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +12,8 @@ import com.zzhoujay.richtext.RichText;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+
+import wmt.ActGuide;
 
 /**
  * des:
@@ -24,6 +27,7 @@ public class Act3RogerMD extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act3_roger_markdown);
+        startActivity(new Intent(this, ActGuide.class));
         TextView tvMarkdown = findViewById(R.id.tv_markdown);
 //        String md = "file:///android_asset/am.md";
         InputStream inputStream = null;

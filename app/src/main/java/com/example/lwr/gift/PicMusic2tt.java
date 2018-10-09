@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide;
 public class PicMusic2tt extends Activity {
 
 	private ImageView imageView;
-	int[] images = new int[]{R.drawable.ic_wait, R.drawable.ic_ni, R.drawable.ic_yuwang, R.drawable.ic_biaobai, R.drawable.ic_chengxuyuan, R.drawable.ic_tt_dongman1, R.drawable.ic_tt_dongman2};
+	int[] images = new int[]{/*R.drawable.ic_wait,*/ /*R.drawable.ic_ni, R.drawable.ic_yuwang,*/ /*R.drawable.ic_biaobai,*//* R.drawable.ic_chengxuyuan,*/ /*R.drawable.ic_tt_dongman1, R.drawable.ic_tt_dongman2*/};
 	int[] anims = new int[]{R.anim.slide_in_left, R.anim.zoom_in};
 	int length = 1;
 	int count = 0;

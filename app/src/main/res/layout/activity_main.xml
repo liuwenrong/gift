@@ -23,10 +23,9 @@
         app:direction="right"
         android:layout_height="0dp">
         <ImageView
-            android:src="@drawable/ic_tt_zhinv"
             android:layout_width="@dimen/width"
             android:layout_height="@dimen/width" />
-        <ImageView
+<!--        <ImageView
             android:src="@mipmap/ic_170520_3"
             android:layout_width="@dimen/width"
             android:layout_height="@dimen/width" />
@@ -37,7 +36,7 @@
         <ImageView
             android:src="@mipmap/ic_170520_1"
             android:layout_width="@dimen/width"
-            android:layout_height="@dimen/width" />
+            android:layout_height="@dimen/width" />-->
     </com.dalong.library.view.LoopRotarySwitchView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -87,19 +86,15 @@
             app:autoRotation="true"
             android:layout_height="match_parent">
             <ImageView
-                android:src="@drawable/ic_tt_zhinv"
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/width" />
             <ImageView
-                android:src="@mipmap/ic_170520_3"
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/width" />
             <ImageView
-                android:src="@mipmap/ic_170520_2"
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/width" />
             <ImageView
-                android:src="@mipmap/ic_170520_1"
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/width" />
         </com.dalong.library.view.LoopRotarySwitchView>

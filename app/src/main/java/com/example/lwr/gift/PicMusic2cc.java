@@ -45,13 +45,13 @@ public class PicMusic2cc extends Activity {
 			
 			Toast.makeText(getApplicationContext(), "�������Ċ�", 0).show();
 			iv_cc.setVisibility(View.VISIBLE);
-			iv_cc.setImageResource(R.drawable.cc_1);
+/*			iv_cc.setImageResource(R.drawable.cc_1);*/
 			
 			break;
 		case R.id.tv_click_0:
 			
 			Toast.makeText(getApplicationContext(), "�������Ċ�", 0).show();
-			iv_cc.setImageResource(R.drawable.cc_0);
+/*			iv_cc.setImageResource(R.drawable.cc_0);*/
 			
 			break;
 		default:

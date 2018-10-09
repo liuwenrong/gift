@@ -1,5 +1,6 @@
 package wmt;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +25,7 @@ public class Act6SongMD extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act2_markdown);
+        startActivity(new Intent(this, ActGuide.class));
         TextView tvMarkdown = findViewById(R.id.tv_markdown);
 //        String md = "file:///android_asset/wmt.md";
         InputStream inputStream = null;

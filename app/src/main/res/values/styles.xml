@@ -16,6 +16,28 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="noAnimationTheme.AppCompat" parent="@style/AppTheme">
+        <item name="android:windowAnimationStyle">@style/noAnimationNoAppCompat</item>
+    </style>
+    <style name="noAnimationTheme.AppCompat.FullScreen" parent="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen">
+        <item name="android:windowAnimationStyle">@style/noAnimationNoAppCompat</item>
+    </style>
+
+    <style name="noAnimationNoAppCompat">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
     <style name="dialog_red_button" parent="android:Widget.Button">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">31dp</item>

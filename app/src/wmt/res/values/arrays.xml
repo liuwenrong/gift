@@ -1,26 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="url">
-        <!--小姐姐-->
-<!--        <item>http://upload-images.jianshu.io/upload_images/1367153-ec52114ac51941f6.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>-->
-        <!--171114妳生日-->
-        <item>https://upload-images.jianshu.io/upload_images/1367153-5a06ff90d8f8cfb3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
-        <!--171225圣诞节交换礼物-->
-        <item>https://upload-images.jianshu.io/upload_images/1367153-9d8e9c1b7600a77b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
-        <!--ins flower-->
-        <item>https://upload-images.jianshu.io/upload_images/1367153-15daaafeb62d1342.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+    <array name="url_love">
+        <item>http://upload-images.jianshu.io/upload_images/1367153-b987bed3e2f0b894.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <item>http://upload-images.jianshu.io/upload_images/1367153-0ea4e0e6f66b6544.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <item>http://upload-images.jianshu.io/upload_images/1367153-f5b0c28a3950d938.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <item>https://upload-images.jianshu.io/upload_images/1367153-87d4b0e21451fd65.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
+    </array>
+    <array name="title_love">
+        <item>爱妳一万年</item>
+        <item>唯美侧脸的妳</item>
+        <item>说土味情话的妳</item>
+        <item>小婷子,一生只为守护妳</item>
+    </array>
+    <array name="url_wmt">
+        <!--爱笑的妳-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-2ce119daf19d4abc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <item>http://upload-images.jianshu.io/upload_images/1367153-b29e30a578150666.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
         <!--代码的图片-->
         <item>https://upload-images.jianshu.io/upload_images/1367153-570026a5d9d794ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
-        <!--ins week-->
-        <item>https://upload-images.jianshu.io/upload_images/1367153-a88cd49606537360.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
-
-        <!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic21363tj30ci08ct96.jpg</item>-->
-        <!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic1xjab4j30ci08cjrv.jpg</item>-->
-<!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic259ohaj30ci08c74r.jpg</item>-->
-        <!--<item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2b16zuj30ci08cwf4.jpg</item>-->
-<!--        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item>-->
+        <!--性感的妳-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-86a4a93201d55258.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+    </array>
+    <array name="title_wmt">
+        <item>爱笑的妳</item>
+        <item>健身晒人鱼线的妳</item>
+        <item>Sun,Moon,You</item>
+        <item>性感的妳</item>
     </array>
 
+    <array name="url">
+        <!--我要做个宠妻狂魔-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-f8d98c183402c1ed.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <!--调皮可爱的妳-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-e7d12fd4c9a81656.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <!-- 生日时候的妳 -->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-54bace244a12fd53.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <!--和朋友傻傻的自拍的妳-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-be688a88f773db04.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <!--心里面全是妳-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-baee361228a3f6ae.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+
+    </array>
+
+    <array name="title">
+        <item>我要做个宠妻狂魔</item>
+        <item>调皮可爱的妳</item>
+        <item>生日时候的妳</item>
+        <item>和朋友傻傻的自拍的妳</item>
+        <item>心里面全是妳</item>
+    </array>
     <array name="url1">
         <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
     </array>
@@ -45,13 +73,6 @@
         <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1ef4d709.jpg</item>
         <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f20b3ea10.jpg</item>
         <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f21927f8d.jpg</item>
-    </array>
-    <array name="title">
-        <item>171114我们为妳庆祝生日</item>
-        <item>171225圣诞节交换礼物</item>
-        <item>180513Ins展</item>
-        <item>Sun,Moon,You</item>
-        <item>Ins展week</item>
     </array>
     <array name="demo_list">
         <item>banner动画预览</item>

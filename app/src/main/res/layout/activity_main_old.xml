@@ -53,6 +53,6 @@
         android:layout_height="wrap_content"
         android:onClick="onClick4Main"
         android:visibility="visible"
-        android:src="@drawable/ic_yujian" />
+        />
 
 </LinearLayout>

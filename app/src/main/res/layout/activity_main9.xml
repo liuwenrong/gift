@@ -17,6 +17,6 @@
         android:layout_height="wrap_content"
         android:visibility="visible"
         android:onClick="animRun"
-        android:src="@drawable/ic_tt_zhinv" />
+        />
 
 </RelativeLayout>

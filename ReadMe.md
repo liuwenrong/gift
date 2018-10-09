@@ -1,4 +1,7 @@
 # Gift
+## 181009 {
+    1. banner动画,key password gift4love aliasPW l5
+## }
 ## 181008 {
     1. add wmt,忘记上传,丢失了部分动画图片代码,好气啊
 ## }
