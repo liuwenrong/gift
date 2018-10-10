@@ -21,9 +21,8 @@ public class Act9Gif2 extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.act9_dialog_2_gif);
-
+        startActivity(new android.content.Intent(this, ActGuide.class));
 /*        mIvGif = findViewById(R.id.iv_gif);
         new GlideImageLoader().displayImage(getContext(), R.mipmap.ic_love_heart, mIvGif);
         ImageView mIvGif2 = findViewById(R.id.iv_gif2);

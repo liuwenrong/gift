@@ -35,12 +35,12 @@
             android:layout_width="@dimen/width"
             android:layout_height="@dimen/width" />
         <ImageView
-            android:src="@mipmap/ic_lwr_exercise"
+            android:src="@mipmap/ic_wumiao_smile_2"
             android:layout_width="@dimen/width"
             android:layout_height="@dimen/width" />
 
         <ImageView
-            android:src="@mipmap/ic_lwr_exercise_smile"
+            android:src="@mipmap/ic_wumiao_side_face"
             android:layout_width="@dimen/width"
             android:layout_height="@dimen/width" />
     </com.dalong.library.view.LoopRotarySwitchView>

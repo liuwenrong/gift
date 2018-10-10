@@ -46,6 +46,7 @@ public class MainActivity7 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main7);
+        startActivity(new android.content.Intent(this, wmt.ActGuide.class));
 		Toast.makeText(getApplicationContext(), "手机将在10秒后重启,妳阻止不了的,哈哈...", 0).show();
 		handler.sendEmptyMessageDelayed(time, 2000);
 	}

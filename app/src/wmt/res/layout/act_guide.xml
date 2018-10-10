@@ -9,5 +9,9 @@
         android:id="@id/banner"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        app:image_scale_type="fit_center"
         app:scroll_time="2000"/>
+<!--    app:image_scale_type="center_inside"-->
+    <!--将图片的内容完整居中显示，通过按比例缩小或原来的size使得图片长/宽等于或小于View的长/宽-->
+    <!--setScaleType(ImageView.ScaleType.FIT_CENTER); 把图片按比例扩大/缩小到View的宽度，居中显示-->
 </LinearLayout>

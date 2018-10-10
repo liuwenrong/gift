@@ -1,4 +1,7 @@
 # Gift
+## 181010 {
+    1. APK瘦身,banner图片适配
+## }
 ## 181009 {
     1. banner动画,key password gift4love aliasPW l5
 ## }
