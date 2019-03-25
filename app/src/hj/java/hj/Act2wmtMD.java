@@ -1,4 +1,4 @@
-package com.roger.gift;
+package hj;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,26 +13,24 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import hj.ActGuide;
-
 /**
  * des:
  *
  * @author liuwenrong
  * @version 1.0, 8/8/2018
  */
-public class Act3RogerMD extends AppCompatActivity {
+public class Act2wmtMD extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.act3_roger_markdown);
+        setContentView(R.layout.act2_markdown);
         startActivity(new Intent(this, ActGuide.class));
         TextView tvMarkdown = findViewById(R.id.tv_markdown);
-//        String md = "file:///android_asset/am.md";
+//        String md = "file:///android_asset/wmt.md";
         InputStream inputStream = null;
         try {
-            inputStream = getAssets().open("roger.md");
+            inputStream = getAssets().open("hj.md");
         } catch (IOException e) {
             e.printStackTrace();
         }

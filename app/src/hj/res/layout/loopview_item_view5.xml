@@ -8,7 +8,7 @@
         android:id="@+id/loopView_rel"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@drawable/point3">
+        android:background="@drawable/point5">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                 android:textColor="@color/white"
                 android:textSize="45sp"
                 android:gravity="center"
-                android:text="一" />
+                android:text="娟" />
 
 
         </LinearLayout>

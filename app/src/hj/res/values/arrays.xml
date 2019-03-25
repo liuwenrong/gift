@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url_love">
+        <item>http://upload-images.jianshu.io/upload_images/1367153-448dd9f31e74e1f6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <item>http://upload-images.jianshu.io/upload_images/1367153-00d83ca41ae9d1ff.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <item>http://upload-images.jianshu.io/upload_images/1367153-2430ad773fdcefbb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+    </array>
+    <array name="title_love">
+        <item>可爱的妳</item>
+        <item>在朋友家的妳</item>
+        <item>清纯可爱的妳,一定是高中的照骗</item>
+    </array>
+    <array name="url_hj">
+        <!--可爱的妳-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-d744a116b877a99a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <!--代码的图片-->
+        <item>https://upload-images.jianshu.io/upload_images/1367153-570026a5d9d794ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
+    </array>
+    <array name="title_hj">
+        <item>可爱的妳</item>
+        <item>Sun,Moon,You</item>
+    </array>
+
+    <array name="url">
+        <!--我要做个宠妻狂魔-->
+        <item>http://upload-images.jianshu.io/upload_images/1367153-2430ad773fdcefbb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+
+    </array>
+
+    <array name="title">
+        <item>哈哈[笑脸]</item>
+    </array>
+    <array name="url1">
+        <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
+    </array>
+    <array name="url2">
+        <item>http://img.zcool.cn/community/01d28457d621800000018c1bb7877e.jpg</item>
+        <item>http://img.zcool.cn/community/01ae5656e1427f6ac72531cb72bac5.jpg</item>
+    </array>
+    <array name="url4">
+        <item>http://img.zcool.cn/community/01b72057a7e0790000018c1bf4fce0.png</item>
+        <item>http://img.zcool.cn/community/01fca557a7f5f90000012e7e9feea8.jpg</item>
+        <item>http://img.zcool.cn/community/01996b57a7f6020000018c1bedef97.jpg</item>
+        <item>http://img.zcool.cn/community/01700557a7f42f0000018c1bd6eb23.jpg</item>
+    </array>
+    <!-- http://588ku.com/image/daitengmandelitizi.html -->
+    <array name="test_num_url">
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f19cc0079.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1ac12d1d.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1bad97d1.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1c83c228.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1d53e3dd.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1e37fea9.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f1ef4d709.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f20b3ea10.jpg</item>
+        <item>http://bpic.588ku.com/element_origin_min_pic/00/00/05/115732f21927f8d.jpg</item>
+    </array>
+    <array name="demo_list">
+        <item>banner动画预览</item>
+        <item>banner内置样式预览</item>
+        <item>banner指示器位置设置预览</item>
+        <item>banner一些自定义样式方法预览</item>
+        <item>banner加载本地图片</item>
+        <item>banner自定义布局文件（这里通过修改ViewPager举一反三吧）</item>
+        <item>！！banner更多用法请看文档，这里就不一一列举了！</item>
+    </array>
+    <array name="anim">
+        <item>Default动画</item>
+        <item>Accordion动画</item>
+        <item>BackgroundToForeground动画</item>
+        <item>ForegroundToBackground动画</item>
+<!--        <item>CubeIn动画</item>-->
+        <item>CubeOut动画</item>
+        <item>DepthPage动画</item>
+        <item>FlipHorizontal动画</item>
+        <item>FlipVertical动画</item>
+        <item>RotateDown动画</item>
+        <item>RotateUp动画</item>
+        <item>ScaleInOut动画</item>
+        <item>Stack动画</item>
+        <item>Tablet动画</item>
+        <item>ZoomIn动画</item>
+        <item>ZoomOut动画</item>
+        <item>ZoomOutSlide动画</item>
+    </array>
+    <string-array name="style">
+        <item>NOT_INDICATOR</item>
+        <item>CIRCLE_INDICATOR</item>
+        <item>NUM_INDICATOR</item>
+        <item>NUM_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE</item>
+        <item>CIRCLE_INDICATOR_TITLE_INSIDE</item>
+    </string-array>
+    <string-array name="indicator">
+        <item>LEFT</item>
+        <item>CENTER</item>
+        <item>RIGHT</item>
+    </string-array>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.lwr.gift">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:name="com.roger.base.GiftApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="hj.ActGuide"
+            android:screenOrientation="portrait" android:theme="@style/noAnimationTheme.AppCompat.FullScreen"
+            />
+        <!--Hi 介绍 如何认识-->
+        <activity
+            android:name="hj.Act1HeartTree"
+            android:icon="@mipmap/ic_hi"
+            android:process=":process.main"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--女猪脚 夸奖一番 bb-->
+        <activity
+            android:name="hj.Act2wmtMD"
+            android:icon="@mipmap/ic_lau"
+            android:label="@string/app_name2_wmt"
+            android:launchMode="singleInstance"
+            android:process=":process.sub"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <!--3我是荣 自我介绍,自我炫耀-->
+        <activity
+            android:name="com.roger.gift.Act3RogerMD"
+            android:icon="@mipmap/ic_lwr_180808"
+            android:label="@string/app_name3"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:process=":process.sub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--4在这里 Banner图片+动画+文字-->
+        <!--        <activity android:name="roger.am.Act4BannerAnimation"-->
+        <activity
+            android:name="hj.Act4Loop3D"
+            android:icon="@mipmap/ic_qq"
+            android:label="@string/app_name4_1"
+            android:launchMode="singleInstance"
+            android:process=":process.sub"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="hj.Act4BannerAnimation"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen"
+            />
+
+        <!--        <activity android:name=".Joke3"
+                    android:label="@string/app_name4_1"
+                    android:process=":process.sub"
+                    android:launchMode ="singleInstance"
+                    android:icon="@drawable/ic_lwr_christmas">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>-->
+
+        <!--5祝你 网站web-->
+        <activity
+            android:name="hj.weblove.activity.Act5WebLove"
+            android:icon="@mipmap/ic_lau"
+            android:label="@string/app_name5_1"
+            android:launchMode="singleInstance"
+            android:process=":process.sub"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="hj.weblove.activity.BrowserActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen"
+            />
+
+        <!--        <activity android:name=".MainActivity6"
+                    android:label="@string/app_name6_happy"
+                    android:process=":process.sub"
+                    android:launchMode ="singleInstance"
+                    android:icon="@drawable/ic_lufei_daxiao">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>-->
+
+        <!--        <activity android:name=".MainActivity7"
+                    android:label="@string/app_name7"
+                    android:process=":process.sub"
+                    android:launchMode ="singleInstance"
+                    android:icon="@drawable/ic_lufei_ku">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>-->
+
+
+        <!--6 节日-->
+        <activity
+            android:name="hj.Act6SongMD"
+            android:icon="@mipmap/ic_lau"
+            android:label="@string/app_name6"
+            android:launchMode="singleInstance"
+            android:process=":process.sub"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--7.恶搞 玩笑-->
+        <activity
+            android:name=".MainActivity7"
+            android:icon="@mipmap/ic_qq"
+            android:label="@string/app_name7"
+            android:launchMode="singleInstance"
+            android:process=":process.sub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="hj.Act8Cartoon"
+            android:icon="@mipmap/ic_lau"
+            android:label="@string/app_name8"
+            android:launchMode="singleInstance"
+            android:process=":process.sub"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="hj.Act9DialogLove"
+            android:icon="@mipmap/ic_qq"
+            android:label="@string/app_name9"
+            android:launchMode="singleInstance"
+            android:process=":process.sub"
+            android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="hj.Act9Gif2"
+                  android:theme="@style/Theme.ReactNative.AppCompat.Light.NoActionBar.FullScreen"
+            />
+        <!--<activity android:name=".MainActivity9"-->
+        <!--android:label="@string/app_name9"-->
+        <!--android:process=":process.sub"-->
+        <!--android:launchMode ="singleInstance"-->
+        <!--android:icon="@drawable/ic_launcher9">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.MAIN" />-->
+
+        <!--<category android:name="android.intent.category.LAUNCHER" />-->
+        <!--</intent-filter>-->
+        <!--</activity>-->
+
+    </application>
+
+</manifest>

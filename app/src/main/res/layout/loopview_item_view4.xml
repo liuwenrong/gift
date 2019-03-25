@@ -25,7 +25,7 @@
                 android:textColor="@color/white"
                 android:textSize="45sp"
                 android:gravity="center"
-                android:text="妳" />
+                android:text="梨" />
 
 
         </LinearLayout>

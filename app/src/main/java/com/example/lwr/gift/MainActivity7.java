@@ -1,5 +1,6 @@
 package com.example.lwr.gift;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
@@ -10,6 +11,7 @@ public class MainActivity7 extends Activity {
 
 	private final int time = 0;
 	private int int_time = 10;
+	@SuppressLint("HandlerLeak")
 	private Handler handler = new Handler(){
 
 		public void handleMessage(android.os.Message msg) {
@@ -20,8 +22,7 @@ public class MainActivity7 extends Activity {
 				Toast.makeText(getApplicationContext(), ""+int_time, 0).show();
 				if(int_time == 0){
 
-					Toast.makeText(getApplicationContext(), "算了,我还是不重启了......", 1).show();
-					Toast.makeText(getApplicationContext(), getResources().getText(R.string.happy_day2), 1).show();
+					Toast.makeText(getApplicationContext(), "算了,我还是不重启了......" + getResources().getString(R.string.happy_day2), Toast.LENGTH_LONG).show();
 					handler.sendEmptyMessageDelayed(1, 5000);
 
 
@@ -46,7 +47,7 @@ public class MainActivity7 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main7);
-        startActivity(new android.content.Intent(this, wmt.ActGuide.class));
+        startActivity(new android.content.Intent(this, hj.ActGuide.class));
 		Toast.makeText(getApplicationContext(), "手机将在10秒后重启,妳阻止不了的,哈哈...", 0).show();
 		handler.sendEmptyMessageDelayed(time, 2000);
 	}

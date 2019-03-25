@@ -15,4 +15,6 @@ public class Constant {
      * 土味情话
      */
     public static final String LOVE_WORDS_URL = "https://qnp.chumanapp.com/m/comicShare/#/home/a768cdbbbc36d6b59b675d00e5bd8e22?mode=official";
+    /** 见家长之囧事篇 */
+    public static final String SEE_PARENT_URL = "https://qnp.chumanapp.com/m/comicShare/index.html?time=1553504817684#/home/18f01e7bfa37701c5288fe27171838a8?mode=official";
 }
