@@ -18,7 +18,7 @@
             android:orientation="vertical"
             android:gravity="center"
             >
-
+<!--我 中 一梨-->
             <TextView
                 android:id="@+id/loopView1_tv1"
                 android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
                 android:textColor="@color/white"
                 android:textSize="45sp"
                 android:gravity="center"
-                android:text="中" />
+                android:text="媳妇儿" />
 
 
         </LinearLayout>

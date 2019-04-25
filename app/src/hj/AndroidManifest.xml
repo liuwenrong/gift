@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.lwr.gift">
+          package="com.example.lwr.gift"
+    >
+    <!--android:targetSandboxVersion="2"-->
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
@@ -29,9 +31,9 @@
 
         <!--女猪脚 夸奖一番 bb-->
         <activity
-            android:name="hj.Act2wmtMD"
+            android:name="hj.Act2xfeMD"
             android:icon="@mipmap/ic_lau"
-            android:label="@string/app_name2_wmt"
+            android:label="@string/app_name2_xfe"
             android:launchMode="singleInstance"
             android:process=":process.sub"
             android:screenOrientation="portrait"
@@ -64,7 +66,7 @@
         <!--        <activity android:name="roger.am.Act4BannerAnimation"-->
         <activity
             android:name="hj.Act4Loop3D"
-            android:icon="@mipmap/ic_qq"
+            android:icon="@mipmap/ic_boy_book"
             android:label="@string/app_name4_1"
             android:launchMode="singleInstance"
             android:process=":process.sub"
@@ -97,7 +99,7 @@
         <!--5祝你 网站web-->
         <activity
             android:name="hj.weblove.activity.Act5WebLove"
-            android:icon="@mipmap/ic_lau"
+            android:icon="@mipmap/ic_girl_phone"
             android:label="@string/app_name5_1"
             android:launchMode="singleInstance"
             android:process=":process.sub"
@@ -141,9 +143,11 @@
 
 
         <!--6 节日-->
+
+        <!--android:name="hj.Act6SongMD"-->
         <activity
-            android:name="hj.Act6SongMD"
-            android:icon="@mipmap/ic_lau"
+            android:name="aron.girl.BirthdayMD"
+            android:icon="@mipmap/ic_qq"
             android:label="@string/app_name6"
             android:launchMode="singleInstance"
             android:process=":process.sub"
@@ -155,10 +159,11 @@
             </intent-filter>
         </activity>
 
-        <!--7.恶搞 玩笑-->
+        <!--7.恶搞 玩笑 生-->
+
         <activity
             android:name=".MainActivity7"
-            android:icon="@mipmap/ic_qq"
+            android:icon="@mipmap/ic_boy"
             android:label="@string/app_name7"
             android:launchMode="singleInstance"
             android:process=":process.sub">
@@ -168,10 +173,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
+<!--日-->
+        <!--android:name="hj.Act8Cartoon"-->
         <activity
-            android:name="hj.Act8Cartoon"
-            android:icon="@mipmap/ic_lau"
+            android:name="aron.girl.Act8CartoonHtml"
+            android:icon="@mipmap/ic_girl"
             android:label="@string/app_name8"
             android:launchMode="singleInstance"
             android:process=":process.sub"
@@ -186,7 +192,7 @@
 
         <activity
             android:name="hj.Act9DialogLove"
-            android:icon="@mipmap/ic_qq"
+            android:icon="@mipmap/ic_lau"
             android:label="@string/app_name9"
             android:launchMode="singleInstance"
             android:process=":process.sub"

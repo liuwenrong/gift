@@ -23,7 +23,7 @@ public class BrowserActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browser);
-        mWebView = (WebView) findViewById(R.id.webview);
+        mWebView = (WebView) findViewById(R.id.webView);
         initweb();
         //        url = "http://www.duwu.me";
         //        url = "http://www.jd.com";

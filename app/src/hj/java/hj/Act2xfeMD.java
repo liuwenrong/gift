@@ -19,7 +19,7 @@ import java.io.InputStream;
  * @author liuwenrong
  * @version 1.0, 8/8/2018
  */
-public class Act2wmtMD extends AppCompatActivity {
+public class Act2xfeMD extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

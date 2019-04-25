@@ -24,13 +24,13 @@ public class Act8Cartoon extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browser);
-        mWebView = (WebView) findViewById(R.id.webview);
-        initweb();
-            mWebView.loadUrl(Constant.SEE_PARENT_URL);
+        mWebView = (WebView) findViewById(R.id.webView);
+        initWeb();
+        mWebView.loadUrl(Constant.SEE_PARENT_URL);
     }
 
 
-    private void initweb() {
+    private void initWeb() {
         mWebView.getSettings().setDefaultTextEncodingName("UTF-8");
         mWebView.setWebViewClient(new InnerWebViewClient());
         mWebView.getSettings().setUseWideViewPort(true);

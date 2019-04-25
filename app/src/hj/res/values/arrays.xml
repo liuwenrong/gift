@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="url_love">
+        <item>http://upload-images.jianshu.io/upload_images/1367153-5f15fc27231e8db8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
+        <item>http://upload-images.jianshu.io/upload_images/1367153-5f15fc27231e8db8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
         <item>http://upload-images.jianshu.io/upload_images/1367153-448dd9f31e74e1f6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
         <item>http://upload-images.jianshu.io/upload_images/1367153-00d83ca41ae9d1ff.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
         <item>http://upload-images.jianshu.io/upload_images/1367153-2430ad773fdcefbb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
     </array>
     <array name="title_love">
+        <item>我能想到最浪漫的事</item>
+        <item>就是陪你一起慢慢变老</item>
         <item>可爱的妳</item>
         <item>在朋友家的妳</item>
         <item>清纯可爱的妳,一定是高中的照骗</item>
     </array>
     <array name="url_hj">
+        <item>http://upload-images.jianshu.io/upload_images/1367153-5f15fc27231e8db8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
         <!--可爱的妳-->
         <item>http://upload-images.jianshu.io/upload_images/1367153-d744a116b877a99a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50</item>
         <!--代码的图片-->
         <item>https://upload-images.jianshu.io/upload_images/1367153-570026a5d9d794ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</item>
     </array>
     <array name="title_hj">
+        <item>想陪妳一起完成恋人清单</item>
         <item>可爱的妳</item>
         <item>Sun,Moon,You</item>
     </array>
